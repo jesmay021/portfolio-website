@@ -1,0 +1,96 @@
+body {
+  background-color:#C5D5CB;
+  font-family:'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color:  #000000;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+a:visited {
+    color: #291528;
+  }
+a:hover,
+a:focus {
+    color: #9FA8A3;
+    text-decoration: underline;
+  }
+  a:active {
+    color: #291528;
+  }
+
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.45em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.button {
+  display: inline-block;
+  background-color: #9FA8A3;
+  color: #ffffff !important;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #7E8C81;
+  transition: 0.2s opacity;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button:active {
+  background-color: #7E8C81;
+  border-bottom: 2px solid #61705F;
+  transition: 0.2s opacity;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: #FFFFFF;
+  color: #9FA8A3 !important;
+  text-transform: uppercase;
+  border: 2px solid #9FA8A3;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #7E8C81;
+  transition: 0.2s opacity;
+  text-decoration: none;
+}
+
+.button.contact:active {
+  background-color: #7E8C81;
+  border-bottom: 2px solid #61705F;
+  transition: 0.2s opacity;
+  text-decoration: none;
+}
