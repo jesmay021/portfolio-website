@@ -10,14 +10,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body id="about-page">
   <header>
     <div class="container">
-      <div>
-        <a href="index.html" class="logo">
-        <img src="img/logo.png" alt="Your Name">
+        <a href="index.html">
+        <img src="img/logo.png" alt="Your Name" class="logo">
       </a>
-    </div>
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
@@ -28,20 +26,24 @@
     </div>
   </header>
   <main>
+    <div>
     <div id="about" class="container">
       <div class="section1">
         <div>
           <h1>About</h1>
         </div>
       </div>
-      <div class="section2">
+    </div>
+  </div>
+  <div>
+      <div class="container">
         <div>
           <picture>
             <source srcset="img/me@1x.jpg" media="(max-width:767px)">
             <img src="img/me@2x.jpg" alt="Me">
           </picture>
-          <div class="info">
-            <div class="my story">
+          <div class="my story">
+            <div>
               <h2>My Story</h2>
               <p>Hey! I’m Jessica May, a UX Researcher and Designer
                 I began my journey in Bloomington, IN, where I got my undergraduate degree in Psychology at Indiana University. I concentrated on human behavior and motivation, and also found my passion in research.
@@ -50,35 +52,36 @@
                 something more creative than what I was doing in a theater.
                 That’s when I learned about UX Design. To me, UX Design is the perfect combination of my love for psychology and research, and being able to create something useful and meaningful.
               </p>
+              <div id="resume">
               <a href="files/Resume.pdf" target="_blank" class="button">View My Resume</a>
+            </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-      <div id="skills" class="container">
-        <div class="column2">
-          <h2>Skills and Tools</h2>
-          <div class="row">
-            <h3>Relevant Skills</h3>
-            <h4>Design</h4>
-            <ul>
-              <li>User Research</li>
-              <li>Information Architecture</li>
-              <li>User Flows</li>
-              <li>Usability Testing</li>
-              <li>Wireframing</li>
-              <li>Prototyping</li>
-              <li>Mobile and Web Design</li>
-            </ul>
-            <h4>Front End Development</h4>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-          </div>
-          <div class="tools">
+    <div id="skills" class="container">
+      <h2>Skills and Tools</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Relevant Skills</h3>
+          <h4>Design</h4>
+          <ul>
+            <li>User Research</li>
+            <li>Information Architecture</li>
+            <li>User Flows</li>
+            <li>Usability Testing</li>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>Mobile and Web Design</li>
+          </ul>
+          <h4>Front End Development</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+          <div class="col-md-6">
             <h3>Tools</h3>
             <ul>
               <li>Adobe XD</li>
@@ -92,16 +95,17 @@
           </div>
         </div>
       </div>
+    </div>
   </main>
   <footer id="contact">
     <div class="container">
       <h2>Get In Touch</h2>
       <p>Interested in my work and want to discuss more opportunities with me? Let's get in touch! Call <a href="tel:5039296094">5039296094</a> or Skype <a href="skype:jesmay021">jesmay021</a> Prefer sending an email? Email me below!</p>
       <div class="email">
-        <a href="mailto:jessica.irene.designs@gmail.com" class= "button contact">Email me!</a>
+        <a href="mailto:jessica.irene.designs@gmail.com" class="button contact">Email me!</a>
       </div>
       <div class="networking">
-          <a href="https://www.linkedin.com/in/jessica-i-may/"  target="_blank">
+        <a href="https://www.linkedin.com/in/jessica-i-may/" target="_blank">
           <img src="img/linkedin.svg" alt="LinkedIn" width="50px" height="50">
         </a>
         <!--- NOT SURE IF I WANT TO INCLUDE OTHER SOCIAL MEDIA --->
@@ -125,4 +129,5 @@
     </div>
   </footer>
 </body>
+
 </html>
