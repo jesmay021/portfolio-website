@@ -161,6 +161,10 @@ nav>ul>li>a {
   /* Centers text */
 }
 
+#hero p {
+  text-align: center;
+}
+
 #work h2 {
   text-align: center;
 }
