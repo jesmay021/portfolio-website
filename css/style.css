@@ -113,8 +113,14 @@ h4 {
 }
 
 /* Layout styling */
+
+main {
+padding-top: 50px;
+
+}
+
 .logo {
-  max-width: 150px;
+  max-width: 250px;
 }
 
 .container {
@@ -124,6 +130,7 @@ h4 {
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 
@@ -139,8 +146,16 @@ nav>ul>li>a {
   display: none;
 }
 
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 .navtoggle, .navtoggle.responsive {
   position: relative;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
 }
 
 .navtoggle li .icon {
@@ -149,6 +164,10 @@ nav>ul>li>a {
   top: 2px;
   font-size: 20px;
   padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
 }
 
 .row {
@@ -266,6 +285,10 @@ Medium devices (640px and larger)
     font-size: 18px;
   }
 
+  nav > ul {
+  margin: 1em 0;
+}
+
   nav>ul>li {
     display: inline-block;
   }
@@ -304,6 +327,7 @@ Medium devices (640px and larger)
   #about-page h3 {
     margin-top: 0;
   }
+
 }
 
 /* ==============================
@@ -321,7 +345,7 @@ Large devices (1024px or larger)
   header {
     text-align: unset;
     padding: 20px 0 13px;
-    max-width: 250px;
+    max-width: 1200px;
   }
 
   nav {
